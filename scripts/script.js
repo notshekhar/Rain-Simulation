@@ -2,6 +2,7 @@ const canvas = document.querySelector("canvas")
 const ctx = canvas.getContext("2d")
 
 const sound = new Audio("./light-rain-109591.mp3")
+sound.loop = true
 
 setTimeout(() => {
     sound.play()
